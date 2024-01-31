@@ -1,5 +1,5 @@
 import unittest
-from data_structures.array import Array, ArrayOutOfIndex
+from .array import Array, ArrayOutOfIndex
 
 
 class TestArray(unittest.TestCase):
