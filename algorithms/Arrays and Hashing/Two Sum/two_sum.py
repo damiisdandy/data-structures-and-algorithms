@@ -14,3 +14,6 @@ def twoSum(nums, target):
         # if difference exists, return the index of that difference and the current index
         else:
             return [hashmap[diff], i]
+
+
+# O(n)
