@@ -22,3 +22,6 @@ def isAnagram(s, t):
         else:
             return False
     return True
+
+
+# O(n)
