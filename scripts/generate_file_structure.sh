@@ -12,3 +12,6 @@ mkdir "$folder_name"
 
 # create files
 touch "$folder_name/${file_name}.py" "$folder_name/${file_name}_test.py" "$folder_name/README.md"
+
+# write markdown title
+echo "# $folder_name" >> "$folder_name/README.md"
