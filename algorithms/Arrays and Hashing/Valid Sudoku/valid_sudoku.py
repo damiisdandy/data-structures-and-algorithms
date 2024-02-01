@@ -33,3 +33,6 @@ def isValidSudoku(board):
                 column_hash[c].add(cell)
                 square_hash[mini_square_id].add(cell)
     return True
+
+
+# O(n^2)
