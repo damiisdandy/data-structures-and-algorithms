@@ -14,3 +14,6 @@ def groupAnagrams(strs):
 
     result = [k for k in hashmap.values()]
     return result
+
+
+# O(n) * O(nlogn) => O(n^2logn)
