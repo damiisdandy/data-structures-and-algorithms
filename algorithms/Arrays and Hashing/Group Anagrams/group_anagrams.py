@@ -16,4 +16,4 @@ def groupAnagrams(strs):
     return result
 
 
-# O(n) * O(nlogn) => O(n^2logn)
+# O(n * mlong(m)) where m is the lenght of the string
