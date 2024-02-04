@@ -11,7 +11,7 @@ def containsDuplicate(nums):
         # if new, assign true
         else:
             hashmap[i] = True
-    # if all numbers gets store and none is referenced, no duplicayed where found
+    # if all numbers gets store and none is referenced, no duplicates where found
     return False
 
 
