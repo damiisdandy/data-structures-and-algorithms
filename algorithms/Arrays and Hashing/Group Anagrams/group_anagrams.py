@@ -21,8 +21,9 @@ def groupAnagrams(strs):
     #         char_count[ord(c) - ord("a")] += 1
     #     # get the unique character count config for the word and its anagrams
     #     hashmap[tuple(char_count)].append(s)
-    # # return a list of values which are the grouped list of anagrams
-    # return list(hashmap.values())
+    # return a list of values which are the grouped list of anagrams
+    # result = [k for k in hashmap.values()]
+    # return result
 
     # 0(nm) where m is the lenght of the string
 
