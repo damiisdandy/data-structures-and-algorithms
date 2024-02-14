@@ -2,7 +2,7 @@ import unittest
 from .array import Array, ArrayOutOfIndex
 
 
-class TestArray(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_init(self):
         _array = Array(1, 2, 3)
         self.assertEqual(_array.length, 3)

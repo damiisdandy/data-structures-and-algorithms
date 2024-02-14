@@ -2,7 +2,7 @@ import unittest
 from .string_encode_and_decode import Solution
 
 
-class TestArray(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_case1(self):
         strs = ["neet", "code", "love", "you"]
         solution = Solution()

@@ -2,7 +2,7 @@ import unittest
 from .group_anagrams import groupAnagrams
 
 
-class TestArray(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_case1(self):
         self.assertEqual(
             groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]),

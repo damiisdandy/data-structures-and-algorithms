@@ -2,7 +2,7 @@ import unittest
 from .valid_anagram import isAnagram
 
 
-class TestArray(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_case1(self):
         self.assertEqual(isAnagram("anagram", "nagaram"), True)
 

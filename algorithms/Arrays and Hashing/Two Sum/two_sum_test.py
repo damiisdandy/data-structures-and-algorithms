@@ -2,7 +2,7 @@ import unittest
 from .two_sum import twoSum
 
 
-class TestArray(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_case1(self):
         self.assertEqual(twoSum([2, 7, 11, 15], 9), [0, 1])
 

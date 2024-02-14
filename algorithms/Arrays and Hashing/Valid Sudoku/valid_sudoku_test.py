@@ -2,7 +2,7 @@ import unittest
 from .valid_sudoku import isValidSudoku
 
 
-class TestArray(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_case1(self):
         self.assertEqual(
             isValidSudoku(

@@ -2,7 +2,7 @@ import unittest
 from .longest_consecutive_sequence import longestConsecutive
 
 
-class TestArray(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_case1(self):
         self.assertEqual(longestConsecutive([100, 4, 200, 1, 3, 2]), 4)
 

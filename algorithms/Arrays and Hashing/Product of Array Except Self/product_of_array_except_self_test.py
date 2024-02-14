@@ -2,7 +2,7 @@ import unittest
 from .product_of_array_except_self import productExceptSelf
 
 
-class TestArray(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_case1(self):
         self.assertEqual(productExceptSelf([1, 2, 3, 4]), [24, 12, 8, 6])
 
